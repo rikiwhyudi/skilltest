@@ -177,7 +177,7 @@ func main() {
 	mysql.DatabaseInit()
 
 	// Create a new game with 2 players and 2 dices per player
-	game := NewGame(3, 6)
+	game := NewGame(3, 4)
 
 	// Play 3 rounds of the game
 	for i := 0; i < 3; i++ {
